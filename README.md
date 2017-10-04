@@ -5,7 +5,6 @@ A simplified experimental website for Prof.Tao's Laboratory/Research Group.
 1. Please make sure that you have installed Tomcat plugins for your Eclipse before you pull or clone this repository.
 2. Before you import the project to your Eclipse, please create the following folders if not exist:
   ./bin
-  ./jsp
   ./src
   ./work
   ./WEB-INF/lib
