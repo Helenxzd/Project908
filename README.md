@@ -13,4 +13,5 @@ Notes :
 Reference :
 If you meet any problems, the following webpage might help :
 http://blog.csdn.net/jerryhanjj/article/details/72777618 (Greenhands for Github.)
+http://www.cnblogs.com/kevingrace/p/6259905.html (Before first commit.)
 https://stackoverflow.com/questions/36309363/windows-git-fatal-taskcanceledexception-encountered (Fatal when pushing the branch.)
