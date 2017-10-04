@@ -7,13 +7,25 @@
     metadata-complete="true" >
     
     <servlet>
-        <servlet-name>MainPage</servlet-name>
-        <servlet-class>indi.eshttccty.project908.MainPage</servlet-class>
+        <servlet-name>Index</servlet-name>
+        <servlet-class>indi.eshttccty.project908.index.Index</servlet-class>
     </servlet>
-    
     <servlet-mapping>
-        <servlet-name>MainPage</servlet-name>
+        <servlet-name>Index</servlet-name>
         <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Index</servlet-name>
+        <url-pattern>/index/index</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>indi.eshttccty.project908.user.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/user/login</url-pattern>
     </servlet-mapping>
     
 </web-app>

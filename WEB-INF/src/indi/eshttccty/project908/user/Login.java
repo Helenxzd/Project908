@@ -1,21 +1,18 @@
-package indi.eshttccty.project908 ;
+package indi.eshttccty.project908.user;
 
 import java.io.IOException ;
-import java.io.PrintWriter;
 
 import javax.servlet.* ;
 import javax.servlet.http.* ;
 
-public class MainPage extends HttpServlet 
+public class Login extends HttpServlet 
 {
     private static final long serialVersionUID = 1L ;
     @Override
     public void doGet ( HttpServletRequest request , HttpServletResponse response ) throws ServletException , IOException
     {
-        PrintWriter writer = response.getWriter ( ) ;
-        writer.write ( "This is the main page of Project908." ) ;
-        writer.flush ( ) ;
-        writer.close ( ) ;
+        request.setAttribute ( "username" , "Stalin" ) ;
+        request.getRequestDispatcher ( "/jsp/user/login.jsp" ).forward ( request , response ) ;
         return ;
     }
 }
